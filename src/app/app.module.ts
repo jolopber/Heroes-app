@@ -5,13 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
-import { LayoutPageComponent } from './auth/pages/layout-page/layout-page.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    LayoutPageComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
