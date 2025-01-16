@@ -1,15 +1,8 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-layout-page',
-  standalone: true,
-  imports: [],
-  template: `<p>layout-page works!</p>`,
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: './layout-page.component.html' ,
+  styles: ``
 })
 export class LayoutPageComponent { }
