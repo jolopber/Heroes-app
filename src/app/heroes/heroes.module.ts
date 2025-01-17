@@ -8,6 +8,7 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { Error404PageComponent } from '../shared/pages/error404-page/error404-page.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { Error404PageComponent } from '../shared/pages/error404-page/error404-pa
   ],
   imports: [
     CommonModule,
-    HeroesRoutingModule
+    HeroesRoutingModule,
+    MaterialModule
   ]
 })
 export class HeroesModule { }
