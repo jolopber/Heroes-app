@@ -12,6 +12,7 @@ import { MaterialModule } from '../material/material.module';
 import { CardComponent } from './components/card/card.component';
 import { HeroImagePipe } from './pipes/hero-image.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 
 @NgModule({
@@ -23,13 +24,14 @@ import { ReactiveFormsModule } from '@angular/forms';
     SearchPageComponent,
     Error404PageComponent,
     CardComponent,
-    HeroImagePipe
+    HeroImagePipe,
+    ConfirmDialogComponent
   ],
   imports: [
     CommonModule,
     HeroesRoutingModule,
     MaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ]
 })
 export class HeroesModule { }
